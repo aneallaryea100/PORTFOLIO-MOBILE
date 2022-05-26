@@ -1,5 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 375px;
+    height: 100%;
+    background: #FFFFFF; 
+    display: flex; 
+    border-radius: 0px;
+    margin: auto auto;
+}
+
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3C3A39;
+    height: 48px;
+    width: 375px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    padding: 0px 24px;
+
+
+}
+
+header h2{
+color:#fff;
+font-family: 'Roboto';
+font-style: normal;
+margin: px;
+}
+
+header i{
+    color: #fff;
+    font-size: larger;
+    margin: px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    gap: 12px;
+    background: #1C1A19;
+    width: 375px;
+    height: 590px;
+    top: 48px;
+    border:2px green solid;
+    background-image: url("assets/image/header.png");
+    background-repeat: no-repeat;
+    background-position:  bottom -50px right 0;
+}
+
+.headline .primary-text{
+    width: 327px;
+    height: 124px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #FF6B00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.headline .supporting-text{
+    width: 327px;
+    height: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+    left: 24px;
+    top: 256px;
+    border-radius: nullpx;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 25px;
+
+
+}
+
+.headline  .description{
+    width: 327px;
+    height: 123px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-right:3px;
+}
+
+.headline  .social-media{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.headline  .social-media > i{
+    color:#DBD8D7;
+    font-size: 20px;
+
 }
