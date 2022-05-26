@@ -59,7 +59,6 @@ header nav i {
   width: 375px;
   height: 590px;
   top: 48px;
-  border: 2px green solid;
   background-image: url("assets/image/header.png");
   background-repeat: no-repeat;
   background-position: bottom -50px right 0;
