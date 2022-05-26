@@ -5,7 +5,15 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-main {
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.wrap-section {
   width: 375px;
   height: 100%;
   background: #fff;
@@ -14,7 +22,7 @@ main {
   margin: auto auto;
 }
 
-header {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,13 +36,14 @@ header {
   padding: 0 24px;
 }
 
-header h2 {
+header nav .my-logo {
   color: #fff;
   font-style: normal;
-  margin: px;
+  font-size: 18px;
+  font-family: 'Roboto';
 }
 
-header i {
+header nav i {
   color: #fff;
   font-size: larger;
   margin: px;
@@ -59,6 +68,7 @@ header i {
 .headline .primary-text {
   width: 327px;
   height: 124px;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -105,7 +115,7 @@ header i {
 
 .headline .social-media {
   display: flex;
-  justify-content: space-between;
+
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -116,7 +126,10 @@ header i {
   flex-grow: 0;
 }
 
-.headline .social-media > i {
-  color: #dbd8d7;
-  font-size: 20px;
+ .socials{
+     display: flex;
+     color: #dbd8d7;
+     font-size: 20px;
+    justify-content: space-between;
+
 }
