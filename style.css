@@ -5,12 +5,13 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style-type: none;
-    margin-right: 20px;
+
+li {
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 .wrap-section {
@@ -40,7 +41,7 @@ header nav .my-logo {
   color: #fff;
   font-style: normal;
   font-size: 18px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
 }
 
 header nav i {
@@ -67,7 +68,7 @@ header nav i {
 .headline .primary-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -114,7 +115,6 @@ header nav i {
 
 .headline .social-media {
   display: flex;
-
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -125,10 +125,9 @@ header nav i {
   flex-grow: 0;
 }
 
- .socials{
-     display: flex;
-     color: #dbd8d7;
-     font-size: 20px;
-    justify-content: space-between;
-
+.socials {
+  display: flex;
+  color: #dbd8d7;
+  font-size: 20px;
+  justify-content: space-between;
 }
