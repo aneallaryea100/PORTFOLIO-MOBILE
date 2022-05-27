@@ -5,7 +5,7 @@
 }
 
 body {
-  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -71,7 +71,7 @@ header nav i {
 .headline .primary-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round', serif;;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
