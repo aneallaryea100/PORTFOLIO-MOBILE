@@ -68,7 +68,7 @@ header nav i {
   background-position: bottom -50px right 0;
 }
 
-.headline .primary-text {
+.headline .primary-text > h1 {
   width: 327px;
   height: 124px;
   font-family: 'Crete Round', serif;
