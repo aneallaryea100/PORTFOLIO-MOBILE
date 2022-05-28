@@ -495,7 +495,7 @@ header nav i {
   /* flex-direction: row; */
   align-items: center;
   background: #ff6b00;
-  color: #fff;
+  color: white;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -560,4 +560,4 @@ header nav i {
   color: #f55800;
 }
 
-/* css code is done */
+
